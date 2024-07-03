@@ -4,6 +4,8 @@ This project provides a tool to translate Estonian text into Estonian Sign Langu
 
 Due to the limited availability of Estonian Sign Language videos, this project also focuses on utilizing existing videos to extract and calculate landmarks using MediaPipe. We can only make avatars for a limited number of sentences and words. This approach helps in generating accurate sign language animations based on the input text.
 
+Original dataset utilized in this application is available at : https://arhiiv.eki.ee/dict/viibex/
+
 ## Features
 
 - **Text Preprocessing**: Tokenization and spell-checking of input Estonian text.
@@ -128,7 +130,7 @@ Open your web browser and navigate to **http://localhost:3000** to view and inte
 
 Below is the video representation of the input text in Estonian Sign Language:
 
-Please [Click Here](https://drive.google.com/file/d/1-kYinMYfFcin_L9UraoWI140Wx1ogOfQ/view?usp=sharing) to view the demo video
+Please [Click Here](https://drive.google.com/file/d/1-kYinMYfFcin_L9UraoWI140Wx1ogOfQ/view?usp=sharing) to view the input text in Estonian Sign Language.
 
 ### Full flow demonstration
 
