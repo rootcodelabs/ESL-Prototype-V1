@@ -10,7 +10,7 @@ class PhraseRequest(BaseModel):
     phrase: str
 
 @router.post("/generate_video")
-async def process_phrase(request: PhraseRequest):
+async def generate_video(request: PhraseRequest):
     phrase = request.phrase
     words = preprocess_phrase(phrase)
     if not words:
