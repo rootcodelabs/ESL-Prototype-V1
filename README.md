@@ -2,7 +2,7 @@
 
 This project provides a tool to translate Estonian text into Estonian Sign Language (ESL) using a virtual avatar. The avatar demonstrates sign language by analyzing and visualizing landmarks of the human body, face, and hands. The virtual avatar provides a visual and intuitive way to understand and learn Estonian Sign Language. By translating text into a series of animated gestures, this tool can be used for educational purposes, communication aids, and enhancing accessibility for the deaf and hard-of-hearing community.
 
-Due to the limited availability of Estonian Sign Language videos, this project also focuses on utilizing existing videos to extract and calculate landmarks using MediaPipe. This approach helps in generating accurate sign language animations based on the input text.
+Due to the limited availability of Estonian Sign Language videos, this project also focuses on utilizing existing videos to extract and calculate landmarks using MediaPipe. We can only make avatars for a limited number of sentences and words. This approach helps in generating accurate sign language animations based on the input text.
 
 ## Features
 
@@ -59,6 +59,7 @@ The function generate avatar phase handles the core functionality of translating
 "Ma armastan sind"
 
 ### Output
-The input text "Ma armastan sind" is processed and mapped to the corresponding sign language videos. Below is the video representation of the input text in Estonian Sign Language:
+
+Below is the video representation of the input text in Estonian Sign Language:
 
 Please [Click Here](https://drive.google.com/file/d/1-kYinMYfFcin_L9UraoWI140Wx1ogOfQ/view?usp=sharing) to view the demo video
