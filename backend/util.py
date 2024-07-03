@@ -25,9 +25,6 @@ def preprocess_phrase(phrase):
     spellcheck_tagger = SpellCheckRetagger()
     spellcheck_tagger.retag(text)
 
-    # Extract original tokens
-    tokens = [token.text for token in text['tokens']]
-
     # Extract spell-corrected tokens
     corrected_tokens = []
     for token in text['words']:
@@ -36,8 +33,15 @@ def preprocess_phrase(phrase):
         else:
             corrected_tokens.append(token.text)
 
+    # Lemmatization
+    text = ' '.join(corrected_tokens)
+    text = Text(text)
+    text.tag_layer()
+    root_corrected_words = [tokens[0] for tokens in text.lemma]
+    
+    return root_corrected_words
 
-    return corrected_tokens
+
 
 
 def create_normalized_landmark_proto(landmarks_list):
