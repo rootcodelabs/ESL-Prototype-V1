@@ -52,6 +52,72 @@ The function generate avatar phase handles the core functionality of translating
    - Drawing hand landmarks (e.g., finger joints).
 5. **Video Creation**: Creates a video output where the avatar demonstrates the sign language translation of the input text.
 
+
+
+## Running the Application
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed on your system:
+- [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) or [Miniconda](https://docs.anaconda.com/miniconda/miniconda-install/)
+- [Node.js](https://nodejs.org/en/download/)
+
+### Getting Started
+
+#### 1. Clone the Repository
+
+First, clone the repository to your local machine:
+
+```sh
+git clone https://github.com/BamunugeDR99/Estonian-Sign-Language-Prototype.git
+```
+```sh
+cd esl-prototype
+```
+#### 2. Set up the Backend
+Navigate to the Backend Directory
+
+```sh
+cd backend
+```
+Create and Activate a Virtual Environment
+```sh
+conda create --name esl-prototype python=3.10
+```
+```sh
+conda activate esl-prototype
+```
+Install Backend Dependencies
+```sh
+pip install -r requirements.txt
+```
+Run the Backend Server
+```sh
+uvicorn main:app --reload
+```
+The backend server should now be running on **http://localhost:8000**.
+
+#### 3. Set up the Frontend
+Open a new terminal window and navigate to the frontend directory
+```sh
+cd frontend
+```
+
+Install Frontend Dependencies
+```sh
+npm install
+```
+Start the Frontend
+```sh
+npm start
+```
+The frontend should now be running on **http://localhost:3000**.
+
+### 4. Accessing the Application
+Open your web browser and navigate to **http://localhost:3000** to view and interact with the ESL Prototype application
+
+
+
 ## Example Output
 
 ### Input Text
@@ -63,3 +129,10 @@ The function generate avatar phase handles the core functionality of translating
 Below is the video representation of the input text in Estonian Sign Language:
 
 Please [Click Here](https://drive.google.com/file/d/1-kYinMYfFcin_L9UraoWI140Wx1ogOfQ/view?usp=sharing) to view the demo video
+
+### Full flow demonstration
+
+
+https://github.com/BamunugeDR99/Estonian-Sign-Language-Prototype/assets/88665574/b1359b2d-32d8-468e-911a-5e45a930720e
+
+
