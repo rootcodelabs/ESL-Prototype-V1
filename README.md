@@ -1,4 +1,4 @@
-# Estonian Text to Estonian Sign Language Project
+# Estonian Text to Estonian Sign Language Prototype
 
 This project provides a tool to translate Estonian text into Estonian Sign Language (ESL) using a virtual avatar. The avatar demonstrates sign language by analyzing and visualizing landmarks of the human body, face, and hands. The virtual avatar provides a visual and intuitive way to understand and learn Estonian Sign Language. By translating text into a series of animated gestures, this tool can be used for educational purposes, communication aids, and enhancing accessibility for the deaf and hard-of-hearing community.
 
