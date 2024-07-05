@@ -6,6 +6,12 @@ Due to the limited availability of Estonian Sign Language videos, this project a
 
 Original dataset utilized in this application is available at : https://arhiiv.eki.ee/dict/viibex/
 
+## Full flow demonstration
+
+
+https://github.com/BamunugeDR99/Estonian-Sign-Language-Prototype/assets/88665574/b1359b2d-32d8-468e-911a-5e45a930720e
+
+
 ## Features
 
 - **Text Preprocessing**: Tokenization and spell-checking of input Estonian text.
@@ -132,9 +138,5 @@ Below is the video representation of the input text in Estonian Sign Language:
 
 Please [Click Here](https://drive.google.com/file/d/1-kYinMYfFcin_L9UraoWI140Wx1ogOfQ/view?usp=sharing) to view the input text in Estonian Sign Language.
 
-### Full flow demonstration
-
-
-https://github.com/BamunugeDR99/Estonian-Sign-Language-Prototype/assets/88665574/b1359b2d-32d8-468e-911a-5e45a930720e
 
 
